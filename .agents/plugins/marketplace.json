@@ -1,0 +1,21 @@
+{
+  "name": "ros2-gazebo-marketplace",
+  "interface": {
+    "displayName": "ROS 2 + Gazebo"
+  },
+  "plugins": [
+    {
+      "name": "ros2-gazebo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/IBILETAB/ros2-gazebo",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer tools"
+    }
+  ]
+}
