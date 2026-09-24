@@ -11,16 +11,14 @@ A Codex plugin with practical guidance for building ROS 2 robotics software in P
 
 The included skill is version-aware. It asks Codex to identify the project's ROS 2 distribution and Gazebo generation before suggesting commands or plugin configuration.
 
-## Install locally
+## Install with Codex CLI
 
-1. Clone this repository into your Codex plugins directory:
+```bash
+codex plugin marketplace add IBILETAB/ros2-gazebo
+codex plugin add ros2-gazebo@ros2-gazebo-marketplace
+```
 
-   ```powershell
-   git clone https://github.com/IBILETAB/ros2-gazebo.git "$HOME/plugins/ros2-gazebo"
-   ```
-
-2. Add the plugin to a local Codex marketplace, or install it through your preferred Codex plugin workflow.
-3. Start a new Codex task so it loads the plugin's skill.
+Then start a new Codex task so it loads the plugin's skill.
 
 ## Development
 
