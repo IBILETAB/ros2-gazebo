@@ -1,0 +1,22 @@
+{
+  "name": "ros2-gazebo",
+  "version": "0.1.0",
+  "description": "Build ROS 2 Python robotics software and integrate it with Gazebo simulations.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ROS 2 + Gazebo",
+    "shortDescription": "Build Python ROS 2 systems that work in Gazebo.",
+    "longDescription": "Guidance for creating ROS 2 Python packages, launch files, simulation assets, and ROS-Gazebo integrations with version-aware workflows.",
+    "developerName": "Local developer",
+    "category": "Developer tools",
+    "capabilities": ["Write", "Code"],
+    "defaultPrompt": [
+      "Create a ROS 2 Python package for this node.",
+      "Connect this ROS 2 node to a Gazebo simulation.",
+      "Debug my ROS-Gazebo topics and launch setup."
+    ]
+  }
+}
