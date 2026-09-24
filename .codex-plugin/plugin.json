@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Build ROS 2 Python robotics software and integrate it with Gazebo simulations.",
   "author": {
-    "name": "Local developer"
+    "name": "picklebanana"
   },
   "skills": "./skills/",
   "interface": {
